@@ -30,7 +30,7 @@
         <Import>@PurrfectlyFriskyModsFolder\Fores New Idles in Skyrim SE - FNIS SE\source\scripts</Import>
         <Import>@PurrfectlyFriskyModsFolder\Fores New Idles in Skyrim SE - FNIS SE - Creature Pack\source\scripts</Import>
 
-        <Import>C:\Steam\steamapps\common\Skyrim Special Edition\Data\Scripts\Source</Import>
+        <Import>C:\Steam\steamapps\common\Skyrim Special Edition - Modding\Data\Scripts\Source</Import>
     </Imports>
     <Folders>
         <Folder>./Scripts/Source</Folder>
@@ -41,6 +41,9 @@
             <Include NoRecurse="true">*.bsa</Include>
             <Match In="Scripts\Source">*.psc</Match>
             <Match In="Scripts">*.pex</Match>
+            <Match In="Meshes\interface\logo">*.nif</Match>
+            <Match In="textures\interface\Objects">*.dds</Match>
+            <Match In="textures\interface\Objects">*.txt</Match>
         </ZipFile>
     </ZipFiles>
 </PapyrusProject>
