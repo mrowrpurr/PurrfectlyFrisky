@@ -1,0 +1,1 @@
+Scriptname PurrfectlyFrisky_Installer_Effect extends activemagiceffect  
