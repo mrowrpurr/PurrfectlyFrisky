@@ -130,11 +130,13 @@ Function Fragment_12()
 ;BEGIN CODE
 ChargenMusic.Add()
 
-;; Game.PrecacheCharGen()
-;; Game.ShowRaceMenu()
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Game.PrecacheCharGen()
+Game.ShowRaceMenu()
+Utility.Wait(0.1)
+SetStage(10)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;; Utility.Wait(0.1)
-;; SetStage(10)
 
 ;END CODE
 EndFunction
