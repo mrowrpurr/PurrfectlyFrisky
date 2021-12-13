@@ -23,6 +23,7 @@
         <Import>@ImportsFolder\SkyUI_SDK\Scripts\Source</Import>
         <Import>@ImportsFolder\RaceMenuSDK\source\scripts</Import>
         <Import>@ImportsFolder\UIExtensions\Scripts\Source</Import>
+        <Import>@ImportsFolder\LiveAnotherLife\Scripts\Source</Import>
 
         <!-- Sexlab and dependencies -->
         <Import>@PurrfectlyFriskyModsFolder\SexLabFrameworkSE_v163\scripts\Source</Import>

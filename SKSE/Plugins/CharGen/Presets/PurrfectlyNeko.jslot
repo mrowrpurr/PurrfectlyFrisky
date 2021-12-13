@@ -1,6 +1,6 @@
 {
    "actor" : {
-      "hairColor" : 4606805,
+      "hairColor" : 12990677,
       "headTexture" : "YamiNeko.esp|0171E4",
       "weight" : 50
    },
@@ -615,19 +615,19 @@
    ],
    "headParts" : [
       {
-         "formId" : 333071,
-         "formIdentifier" : "Skyrim.esm|05150F",
+         "formId" : 687879427,
+         "formIdentifier" : "YamiNeko.esp|003503",
          "type" : 0
       },
       {
-         "formId" : 937340,
-         "formIdentifier" : "Skyrim.esm|0E4D7C",
-         "type" : 1
+         "formId" : 333071,
+         "formIdentifier" : "Skyrim.esm|05150F",
+         "type" : 2
       },
       {
-         "formId" : 620770563,
-         "formIdentifier" : "YamiNeko.esp|003503",
-         "type" : 2
+         "formId" : 967090,
+         "formIdentifier" : "Skyrim.esm|0EC1B2",
+         "type" : 3
       },
       {
          "formId" : 4261431403,
@@ -635,12 +635,23 @@
          "type" : 4
       },
       {
-         "formId" : 486589974,
+         "formId" : 570476054,
          "formIdentifier" : "TheEyesOfBeauty.esp|00C616",
          "type" : 10
+      },
+      {
+         "formId" : 937340,
+         "formIdentifier" : "Skyrim.esm|0E4D7C",
+         "type" : 11
+      },
+      {
+         "formId" : 4261419018,
+         "formIdentifier" : "FluffyEars.esl|00180A",
+         "type" : 12
       }
    ],
    "modNames" : [
+      "FluffyEars.esl",
       "KSHairdosSMP.esp",
       "Skyrim.esm",
       "TheEyesOfBeauty.esp",
@@ -652,11 +663,11 @@
          "name" : "Skyrim.esm"
       },
       {
-         "index" : 29,
+         "index" : 34,
          "name" : "TheEyesOfBeauty.esp"
       },
       {
-         "index" : 37,
+         "index" : 41,
          "name" : "YamiNeko.esp"
       }
    ],
@@ -753,22 +764,22 @@
          "texture" : "Actors\\Character\\Character Assets\\TintMasks\\SkinTone.dds"
       },
       {
-         "color" : 2265908288,
+         "color" : 16777215,
          "index" : 1,
          "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleUpperEyeSocket.dds"
       },
       {
-         "color" : 2265908288,
+         "color" : 16777215,
          "index" : 2,
          "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleLowerEyeSocket.dds"
       },
       {
-         "color" : 1923699794,
+         "color" : 16777215,
          "index" : 3,
          "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHead_Cheeks.dds"
       },
       {
-         "color" : 1799554049,
+         "color" : 16777215,
          "index" : 4,
          "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHead_Cheeks2.dds"
       },
@@ -778,7 +789,7 @@
          "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHead_FrownLines.dds"
       },
       {
-         "color" : 3327133953,
+         "color" : 4294246655,
          "index" : 6,
          "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadNord_Lips.dds"
       },
@@ -893,7 +904,7 @@
          "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadBlackBloodTattoo_02.dds"
       },
       {
-         "color" : 2218984449,
+         "color" : 16777215,
          "index" : 29,
          "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleNordEyeLinerStyle_01.dds"
       },
@@ -911,6 +922,78 @@
          "color" : 16777215,
          "index" : 32,
          "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadDirt_03.dds"
+      }
+   ],
+   "transforms" : [
+      {
+         "firstPerson" : false,
+         "keys" : [
+            {
+               "name" : "RMBPlugin",
+               "values" : [
+                  {
+                     "data" : 0.7599999904632568,
+                     "index" : 0,
+                     "key" : 30,
+                     "type" : 4
+                  },
+                  {
+                     "data" : -0.1000000014901161,
+                     "index" : 0,
+                     "key" : 31,
+                     "type" : 4
+                  },
+                  {
+                     "data" : 0,
+                     "index" : 1,
+                     "key" : 31,
+                     "type" : 4
+                  },
+                  {
+                     "data" : 0,
+                     "index" : 2,
+                     "key" : 31,
+                     "type" : 4
+                  }
+               ]
+            }
+         ],
+         "node" : "CME Ears"
+      },
+      {
+         "firstPerson" : true,
+         "keys" : [
+            {
+               "name" : "RMBPlugin",
+               "values" : [
+                  {
+                     "data" : 0.7599999904632568,
+                     "index" : 0,
+                     "key" : 30,
+                     "type" : 4
+                  },
+                  {
+                     "data" : -0.1000000014901161,
+                     "index" : 0,
+                     "key" : 31,
+                     "type" : 4
+                  },
+                  {
+                     "data" : 0,
+                     "index" : 1,
+                     "key" : 31,
+                     "type" : 4
+                  },
+                  {
+                     "data" : 0,
+                     "index" : 2,
+                     "key" : 31,
+                     "type" : 4
+                  }
+               ]
+            }
+         ],
+         "node" : "CME Ears"
       }
    ],
    "version" : {
