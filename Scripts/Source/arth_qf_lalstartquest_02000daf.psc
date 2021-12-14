@@ -131,10 +131,10 @@ Function Fragment_12()
 ChargenMusic.Add()
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-Game.PrecacheCharGen()
-Game.ShowRaceMenu()
-Utility.Wait(0.1)
-SetStage(10)
+; Game.PrecacheCharGen()
+; Game.ShowRaceMenu()
+; Utility.Wait(0.1)
+; SetStage(10)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 

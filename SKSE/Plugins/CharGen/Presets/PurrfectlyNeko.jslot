@@ -1,9 +1,19 @@
 {
    "actor" : {
       "hairColor" : 12990677,
+      "headTexture" : "YamiNeko.esp|0171E4",
       "weight" : 50
    },
    "bodyMorphs" : [
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAABase_2hweqp"
+      },
       {
          "keys" : [
             {
@@ -20,16 +30,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAABase_2hweqp"
-      },
-      {
-         "keys" : [
-            {
-               "key" : "XPMSE.esp",
-               "value" : 0
-            }
-         ],
-         "name" : "XPMSEAABase_1hmeqp"
+         "name" : "XPMSEAABase_boweqp"
       },
       {
          "keys" : [
@@ -56,7 +57,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAABase_boweqp"
+         "name" : "XPMSEAABase_1hmeqp"
       },
       {
          "keys" : [
@@ -66,6 +67,24 @@
             }
          ],
          "name" : "XPMSEAABase_2hmeqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASaveCRC_boweqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAABase_dageqp"
       },
       {
          "keys" : [
@@ -84,24 +103,6 @@
             }
          ],
          "name" : "XPMSEAABase_bowatk"
-      },
-      {
-         "keys" : [
-            {
-               "key" : "XPMSE.esp",
-               "value" : 0
-            }
-         ],
-         "name" : "XPMSEAABase_dageqp"
-      },
-      {
-         "keys" : [
-            {
-               "key" : "XPMSE.esp",
-               "value" : 0
-            }
-         ],
-         "name" : "XPMSEAASaveCRC_boweqp"
       },
       {
          "keys" : [
@@ -146,7 +147,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAABase_magcon"
+         "name" : "XPMSEAASaveCRC_magcastmt"
       },
       {
          "keys" : [
@@ -164,16 +165,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAASaveCRC_magcastmt"
-      },
-      {
-         "keys" : [
-            {
-               "key" : "XPMSE.esp",
-               "value" : 0
-            }
-         ],
-         "name" : "XPMSEAABase_magidle"
+         "name" : "XPMSEAABase_magcon"
       },
       {
          "keys" : [
@@ -183,6 +175,15 @@
             }
          ],
          "name" : "XPMSEAARange_magcon"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAABase_magidle"
       },
       {
          "keys" : [
@@ -218,7 +219,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAASave_boweqp"
+         "name" : "XPMSEAASaveCRC_magmt"
       },
       {
          "keys" : [
@@ -245,16 +246,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAASaveCRC_magmt"
-      },
-      {
-         "keys" : [
-            {
-               "key" : "XPMSE.esp",
-               "value" : 1
-            }
-         ],
-         "name" : "XPMSEAARange_2hmeqp"
+         "name" : "XPMSEAASave_boweqp"
       },
       {
          "keys" : [
@@ -264,6 +256,15 @@
             }
          ],
          "name" : "XPMSEAARange_magcastmt"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAARange_2hmeqp"
       },
       {
          "keys" : [
@@ -282,24 +283,6 @@
             }
          ],
          "name" : "XPMSEAARange_axeeqp"
-      },
-      {
-         "keys" : [
-            {
-               "key" : "XPMSE.esp",
-               "value" : 1
-            }
-         ],
-         "name" : "XPMSEAARange_bowatk"
-      },
-      {
-         "keys" : [
-            {
-               "key" : "XPMSE.esp",
-               "value" : 1
-            }
-         ],
-         "name" : "XPMSEAARange_bowidle"
       },
       {
          "keys" : [
@@ -326,7 +309,16 @@
                "value" : 1
             }
          ],
-         "name" : "XPMSEAARange_boweqp"
+         "name" : "XPMSEAARange_bowidle"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAARange_bowatk"
       },
       {
          "keys" : [
@@ -336,6 +328,15 @@
             }
          ],
          "name" : "XPMSEAASave_1hmeqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAARange_boweqp"
       },
       {
          "keys" : [
@@ -359,19 +360,19 @@
          "keys" : [
             {
                "key" : "XPMSE.esp",
-               "value" : 1
+               "value" : 0
             }
          ],
-         "name" : "XPMSEAARange_magmt"
+         "name" : "XPMSEAASaveCRC_1hmeqp"
       },
       {
          "keys" : [
             {
                "key" : "XPMSE.esp",
-               "value" : 0
+               "value" : 1
             }
          ],
-         "name" : "XPMSEAASaveCRC_1hmeqp"
+         "name" : "XPMSEAARange_magmt"
       },
       {
          "keys" : [
@@ -398,7 +399,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAASave_dageqp"
+         "name" : "XPMSEAASave_bowidle"
       },
       {
          "keys" : [
@@ -416,16 +417,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAASave_bowidle"
-      },
-      {
-         "keys" : [
-            {
-               "key" : "XPMSE.esp",
-               "value" : 0
-            }
-         ],
-         "name" : "XPMSEAASave_axeeqp"
+         "name" : "XPMSEAASave_dageqp"
       },
       {
          "keys" : [
@@ -443,7 +435,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAASave_maceqp"
+         "name" : "XPMSEAASave_axeeqp"
       },
       {
          "keys" : [
@@ -452,7 +444,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAASave_2hweqp"
+         "name" : "XPMSEAASave_maceqp"
       },
       {
          "keys" : [
@@ -479,7 +471,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAASave_2hmeqp"
+         "name" : "XPMSEAASave_2hweqp"
       },
       {
          "keys" : [
@@ -497,7 +489,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAASaveCRC_2hmeqp"
+         "name" : "XPMSEAASave_2hmeqp"
       },
       {
          "keys" : [
@@ -515,7 +507,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAASaveCRC_2hweqp"
+         "name" : "XPMSEAASaveCRC_2hmeqp"
       },
       {
          "keys" : [
@@ -525,6 +517,15 @@
             }
          ],
          "name" : "XPMSEAASave_magatk"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASaveCRC_2hweqp"
       },
       {
          "keys" : [
@@ -614,6 +615,11 @@
    ],
    "headParts" : [
       {
+         "formId" : 704656643,
+         "formIdentifier" : "YamiNeko.esp|003503",
+         "type" : 0
+      },
+      {
          "formId" : 333071,
          "formIdentifier" : "Skyrim.esm|05150F",
          "type" : 2
@@ -629,26 +635,27 @@
          "type" : 4
       },
       {
-         "formId" : 570476054,
-         "formIdentifier" : "TheEyesOfBeauty.esp|00C616",
+         "formId" : 4261451783,
+         "formIdentifier" : "FluffyEars.esp|009807",
          "type" : 10
+      },
+      {
+         "formId" : 587253270,
+         "formIdentifier" : "TheEyesOfBeauty.esp|00C616",
+         "type" : 11
       },
       {
          "formId" : 937340,
          "formIdentifier" : "Skyrim.esm|0E4D7C",
-         "type" : 11
-      },
-      {
-         "formId" : 4261419018,
-         "formIdentifier" : "FluffyEars.esl|00180A",
          "type" : 12
       }
    ],
    "modNames" : [
-      "FluffyEars.esl",
+      "FluffyEars.esp",
       "KSHairdosSMP.esp",
       "Skyrim.esm",
-      "TheEyesOfBeauty.esp"
+      "TheEyesOfBeauty.esp",
+      "YamiNeko.esp"
    ],
    "mods" : [
       {
@@ -656,8 +663,12 @@
          "name" : "Skyrim.esm"
       },
       {
-         "index" : 34,
+         "index" : 35,
          "name" : "TheEyesOfBeauty.esp"
+      },
+      {
+         "index" : 42,
+         "name" : "YamiNeko.esp"
       }
    ],
    "morphs" : {
@@ -702,22 +713,22 @@
       "sculpt" : [
          {
             "data" : [
-               [ 19, 2, -341, -1010 ],
                [ 139, 6, -1036, -2564 ],
                [ 11, 0, -74, -163 ],
-               [ 38, -6, 294, -2856 ],
+               [ 19, 2, -341, -1010 ],
                [ 14, 0, -57, -122 ],
-               [ 39, -3, -10, -3256 ],
+               [ 38, -6, 294, -2856 ],
                [ 15, 2, -279, -827 ],
+               [ 39, -3, -10, -3256 ],
                [ 20, 0, -74, -163 ],
                [ 33, 0, -57, -122 ],
                [ 40, -6, 304, -2834 ],
                [ 43, -6, 507, -562 ],
                [ 44, -6, 507, -562 ],
-               [ 133, 4, -715, -2593 ],
                [ 69, -1278, -693, -5078 ],
-               [ 135, 0, -216, -2321 ],
+               [ 133, 4, -715, -2593 ],
                [ 71, 1104, -668, -5080 ],
+               [ 135, 0, -216, -2321 ],
                [ 117, 4, -749, -2546 ],
                [ 118, 0, -272, -2618 ],
                [ 119, 0, -285, -2647 ],
@@ -746,6 +757,102 @@
       ],
       "sculptDivisor" : 10000
    },
+   "overrides" : [
+      {
+         "node" : "Body [Ovl0]",
+         "values" : [
+            {
+               "data" : 0,
+               "index" : -1,
+               "key" : 0,
+               "type" : 3
+            },
+            {
+               "data" : 1,
+               "index" : -1,
+               "key" : 1,
+               "type" : 4
+            },
+            {
+               "data" : 5,
+               "index" : -1,
+               "key" : 2,
+               "type" : 4
+            },
+            {
+               "data" : 5,
+               "index" : -1,
+               "key" : 3,
+               "type" : 4
+            },
+            {
+               "data" : 0,
+               "index" : -1,
+               "key" : 7,
+               "type" : 3
+            },
+            {
+               "data" : 1,
+               "index" : -1,
+               "key" : 8,
+               "type" : 4
+            },
+            {
+               "data" : "Actors\\Character\\slavetats\\equipablestockings\\stockings_sheer.dds",
+               "index" : 0,
+               "key" : 9,
+               "type" : 2
+            }
+         ]
+      },
+      {
+         "node" : "Feet [Ovl0]",
+         "values" : [
+            {
+               "data" : 0,
+               "index" : -1,
+               "key" : 0,
+               "type" : 3
+            },
+            {
+               "data" : 1,
+               "index" : -1,
+               "key" : 1,
+               "type" : 4
+            },
+            {
+               "data" : 5,
+               "index" : -1,
+               "key" : 2,
+               "type" : 4
+            },
+            {
+               "data" : 5,
+               "index" : -1,
+               "key" : 3,
+               "type" : 4
+            },
+            {
+               "data" : 0,
+               "index" : -1,
+               "key" : 7,
+               "type" : 3
+            },
+            {
+               "data" : 1,
+               "index" : -1,
+               "key" : 8,
+               "type" : 4
+            },
+            {
+               "data" : "Actors\\Character\\slavetats\\equipablestockings\\stockings_sheer.dds",
+               "index" : 0,
+               "key" : 9,
+               "type" : 2
+            }
+         ]
+      }
+   ],
    "tintInfo" : [
       {
          "color" : 4292730333,
