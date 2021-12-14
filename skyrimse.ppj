@@ -25,6 +25,11 @@
         <Import>@ImportsFolder\RaceMenuSDK\source\scripts</Import>
         <Import>@ImportsFolder\UIExtensions\Scripts\Source</Import>
         <Import>@ImportsFolder\LiveAnotherLife\Scripts\Source</Import>
+        <Import>@ImportsFolder\SAM\scripts\source</Import>
+        <Import>@ImportsFolder\ArousedRedux-FG-Loose\Data\scripts\source</Import>
+        <Import>@ImportsFolder\FlowerGirls SE and VR Main File-5941-3-0-2-1566171791\Data\source\scripts</Import>
+        <Import>@ImportsFolder\OSA-76744-v2-02\OSA\Data\Scripts\Source</Import>
+        <Import>@ImportsFolder\SkyUI\scripts</Import>
 
         <!-- Sexlab and dependencies -->
         <Import>@PurrfectlyFriskyModsFolder\SexLabFrameworkSE_v163\scripts\Source</Import>
@@ -34,6 +39,8 @@
         <Import>@PurrfectlyFriskyModsFolder\Fores New Idles in Skyrim SE - FNIS SE - Creature Pack\source\scripts</Import>
         <Import>@PurrfectlyFriskyModsFolder\Schlongs of Skyrim SE\scripts\source</Import>
         <Import>@PurrfectlyFriskyModsFolder\Sexlab Animation Loadser SSE\Scripts\Source</Import>
+        <Import>@PurrfectlyFriskyModsFolder\Cumshot\scripts\source</Import>
+        <Import>@PurrfectlyFriskyModsFolder\SexLabArousedSSELoose\scripts\source</Import>
 
         <Import>C:\Steam\steamapps\common\Skyrim Special Edition - Modding\Data\Scripts\Source</Import>
     </Imports>
