@@ -1,0 +1,7 @@
+{
+    "text": "Would you like to install some default animations?\n\n(TODO: Choose animation categories to install)",
+    "buttons": {
+        "yes": "DefaultAnimations",
+        "no": "next"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "text": "Would you like to install [various things]?\n\n(This configures pretty muche everything)",
+    "buttons": {
+        "yes": "InstallVariousThings",
+        "no": "next"
+    }
+}

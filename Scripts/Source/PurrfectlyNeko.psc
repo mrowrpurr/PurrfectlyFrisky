@@ -24,7 +24,7 @@ function SetupCharacter()
 endFunction
 
 function FinishSetupCharacter()
-    Utility.WaitMenuMode(4)
+    Utility.WaitMenuMode(1)
     Game.ForceThirdPerson()
     Game.ShowRaceMenu()
 endFunction

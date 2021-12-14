@@ -1,0 +1,7 @@
+{
+    "text": "Would you like to install Sexlab?\n\n(This is a dependency for pretty much everything)",
+    "buttons": {
+        "yes": "InstallSexlab",
+        "no": ""
+    }
+}

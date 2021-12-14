@@ -1,3 +1,2 @@
 scriptName PurrfectlyFrisky_SkyrimPlatform extends SkyrimPlatformConnection
 
-
