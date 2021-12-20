@@ -127,6 +127,10 @@ function VariousThings_Sexlab()
     sexlabConfig.RemoveHeelEffect = true
     sexlabConfig.ForeplayStage = true
     sexlabConfig.AllowCreatures = true
+    sexlabConfig.UnregisterForKey(sexlabConfig.ToggleFreeCamera)
+    sexlabConfig.ToggleFreeCamera = 199 ; Home
+    sexlabConfig.RegisterForKey(199)    ; Home
+    sexlabConfig.AskBed = 0
 endFunction
 
 function VariousThings_Cumshot()
