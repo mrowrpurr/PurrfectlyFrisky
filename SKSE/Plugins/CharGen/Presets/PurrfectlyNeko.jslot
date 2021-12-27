@@ -9,15 +9,6 @@
          "keys" : [
             {
                "key" : "XPMSE.esp",
-               "value" : 0
-            }
-         ],
-         "name" : "XPMSEAABase_2hweqp"
-      },
-      {
-         "keys" : [
-            {
-               "key" : "XPMSE.esp",
                "value" : -1
             }
          ],
@@ -30,7 +21,16 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAABase_boweqp"
+         "name" : "XPMSEAABase_2hweqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAABase_1hmeqp"
       },
       {
          "keys" : [
@@ -57,7 +57,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAABase_1hmeqp"
+         "name" : "XPMSEAABase_boweqp"
       },
       {
          "keys" : [
@@ -67,24 +67,6 @@
             }
          ],
          "name" : "XPMSEAABase_2hmeqp"
-      },
-      {
-         "keys" : [
-            {
-               "key" : "XPMSE.esp",
-               "value" : 0
-            }
-         ],
-         "name" : "XPMSEAASaveCRC_boweqp"
-      },
-      {
-         "keys" : [
-            {
-               "key" : "XPMSE.esp",
-               "value" : 0
-            }
-         ],
-         "name" : "XPMSEAABase_dageqp"
       },
       {
          "keys" : [
@@ -103,6 +85,24 @@
             }
          ],
          "name" : "XPMSEAABase_bowatk"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAABase_dageqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASaveCRC_boweqp"
       },
       {
          "keys" : [
@@ -147,7 +147,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAASaveCRC_magcastmt"
+         "name" : "XPMSEAABase_magcon"
       },
       {
          "keys" : [
@@ -165,16 +165,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAABase_magcon"
-      },
-      {
-         "keys" : [
-            {
-               "key" : "XPMSE.esp",
-               "value" : 1
-            }
-         ],
-         "name" : "XPMSEAARange_magcon"
+         "name" : "XPMSEAASaveCRC_magcastmt"
       },
       {
          "keys" : [
@@ -184,6 +175,15 @@
             }
          ],
          "name" : "XPMSEAABase_magidle"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAARange_magcon"
       },
       {
          "keys" : [
@@ -219,7 +219,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAASaveCRC_magmt"
+         "name" : "XPMSEAASave_boweqp"
       },
       {
          "keys" : [
@@ -246,16 +246,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAASave_boweqp"
-      },
-      {
-         "keys" : [
-            {
-               "key" : "XPMSE.esp",
-               "value" : 1
-            }
-         ],
-         "name" : "XPMSEAARange_magcastmt"
+         "name" : "XPMSEAASaveCRC_magmt"
       },
       {
          "keys" : [
@@ -265,6 +256,15 @@
             }
          ],
          "name" : "XPMSEAARange_2hmeqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAARange_magcastmt"
       },
       {
          "keys" : [
@@ -283,6 +283,24 @@
             }
          ],
          "name" : "XPMSEAARange_axeeqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAARange_bowatk"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAARange_bowidle"
       },
       {
          "keys" : [
@@ -309,16 +327,7 @@
                "value" : 1
             }
          ],
-         "name" : "XPMSEAARange_bowidle"
-      },
-      {
-         "keys" : [
-            {
-               "key" : "XPMSE.esp",
-               "value" : 1
-            }
-         ],
-         "name" : "XPMSEAARange_bowatk"
+         "name" : "XPMSEAARange_boweqp"
       },
       {
          "keys" : [
@@ -328,15 +337,6 @@
             }
          ],
          "name" : "XPMSEAASave_1hmeqp"
-      },
-      {
-         "keys" : [
-            {
-               "key" : "XPMSE.esp",
-               "value" : 1
-            }
-         ],
-         "name" : "XPMSEAARange_boweqp"
       },
       {
          "keys" : [
@@ -360,19 +360,19 @@
          "keys" : [
             {
                "key" : "XPMSE.esp",
-               "value" : 0
+               "value" : 1
             }
          ],
-         "name" : "XPMSEAASaveCRC_1hmeqp"
+         "name" : "XPMSEAARange_magmt"
       },
       {
          "keys" : [
             {
                "key" : "XPMSE.esp",
-               "value" : 1
+               "value" : 0
             }
          ],
-         "name" : "XPMSEAARange_magmt"
+         "name" : "XPMSEAASaveCRC_1hmeqp"
       },
       {
          "keys" : [
@@ -399,7 +399,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAASave_bowidle"
+         "name" : "XPMSEAASave_dageqp"
       },
       {
          "keys" : [
@@ -417,16 +417,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAASave_dageqp"
-      },
-      {
-         "keys" : [
-            {
-               "key" : "XPMSE.esp",
-               "value" : 0
-            }
-         ],
-         "name" : "XPMSEAASaveCRC_bowatk"
+         "name" : "XPMSEAASave_bowidle"
       },
       {
          "keys" : [
@@ -444,7 +435,25 @@
                "value" : 0
             }
          ],
+         "name" : "XPMSEAASaveCRC_bowatk"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
          "name" : "XPMSEAASave_maceqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASave_2hweqp"
       },
       {
          "keys" : [
@@ -471,7 +480,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAASave_2hweqp"
+         "name" : "XPMSEAASave_2hmeqp"
       },
       {
          "keys" : [
@@ -489,7 +498,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAASave_2hmeqp"
+         "name" : "XPMSEAASaveCRC_2hmeqp"
       },
       {
          "keys" : [
@@ -507,7 +516,7 @@
                "value" : 0
             }
          ],
-         "name" : "XPMSEAASaveCRC_2hmeqp"
+         "name" : "XPMSEAASaveCRC_2hweqp"
       },
       {
          "keys" : [
@@ -517,15 +526,6 @@
             }
          ],
          "name" : "XPMSEAASave_magatk"
-      },
-      {
-         "keys" : [
-            {
-               "key" : "XPMSE.esp",
-               "value" : 0
-            }
-         ],
-         "name" : "XPMSEAASaveCRC_2hweqp"
       },
       {
          "keys" : [
@@ -615,7 +615,7 @@
    ],
    "headParts" : [
       {
-         "formId" : 704656643,
+         "formId" : 738211075,
          "formIdentifier" : "YamiNeko.esp|003503",
          "type" : 0
       },
@@ -630,28 +630,22 @@
          "type" : 3
       },
       {
-         "formId" : 4261439595,
-         "formIdentifier" : "KSHairdosSMP.esp|00686B",
+         "formId" : 4261435499,
+         "formIdentifier" : "KSHairdosSMP.esp|00586B",
          "type" : 4
       },
       {
-         "formId" : 4261451783,
-         "formIdentifier" : "FluffyEars.esp|009807",
-         "type" : 10
-      },
-      {
-         "formId" : 587253270,
+         "formId" : 620807702,
          "formIdentifier" : "TheEyesOfBeauty.esp|00C616",
-         "type" : 11
+         "type" : 10
       },
       {
          "formId" : 937340,
          "formIdentifier" : "Skyrim.esm|0E4D7C",
-         "type" : 12
+         "type" : 11
       }
    ],
    "modNames" : [
-      "FluffyEars.esp",
       "KSHairdosSMP.esp",
       "Skyrim.esm",
       "TheEyesOfBeauty.esp",
@@ -663,11 +657,11 @@
          "name" : "Skyrim.esm"
       },
       {
-         "index" : 35,
+         "index" : 37,
          "name" : "TheEyesOfBeauty.esp"
       },
       {
-         "index" : 42,
+         "index" : 44,
          "name" : "YamiNeko.esp"
       }
    ],
@@ -713,22 +707,22 @@
       "sculpt" : [
          {
             "data" : [
+               [ 19, 2, -341, -1010 ],
                [ 139, 6, -1036, -2564 ],
                [ 11, 0, -74, -163 ],
-               [ 19, 2, -341, -1010 ],
-               [ 14, 0, -57, -122 ],
                [ 38, -6, 294, -2856 ],
-               [ 15, 2, -279, -827 ],
+               [ 14, 0, -57, -122 ],
                [ 39, -3, -10, -3256 ],
+               [ 15, 2, -279, -827 ],
                [ 20, 0, -74, -163 ],
                [ 33, 0, -57, -122 ],
                [ 40, -6, 304, -2834 ],
                [ 43, -6, 507, -562 ],
                [ 44, -6, 507, -562 ],
-               [ 69, -1278, -693, -5078 ],
                [ 133, 4, -715, -2593 ],
-               [ 71, 1104, -668, -5080 ],
+               [ 69, -1278, -693, -5078 ],
                [ 135, 0, -216, -2321 ],
+               [ 71, 1104, -668, -5080 ],
                [ 117, 4, -749, -2546 ],
                [ 118, 0, -272, -2618 ],
                [ 119, 0, -285, -2647 ],

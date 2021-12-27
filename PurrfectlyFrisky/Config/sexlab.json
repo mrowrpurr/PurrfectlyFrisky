@@ -1,3 +1,12 @@
 {
-    "enable": true
+    "creatures": true,
+    "askBed": false,
+    "autoAdvance": false,
+    "useExpressions": false,
+    "useLipSync": true,
+    "separateOrgasms": true,
+    "orgasmEffect": true,
+    "limitedStrip": true,
+    "foreplayStage": true,
+    "freeCameraKey": 199
 }

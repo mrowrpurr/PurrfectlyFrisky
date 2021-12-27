@@ -56,6 +56,7 @@ event Schlongify()
     while i < addonCount && ! done
         SOS_AddonQuest_Script addon = SOS_Data.GetAddon(i)
         if StringUtil.Find(addon.GetName(), "Futa") > -1
+        ; if StringUtil.Find(addon.GetName(), "TRX") > -1
             sos.SetSchlong(Player, addon, false)
             sos.RegisterNewSchlongifiedActor(player, addon)
             _schlongified = true
@@ -81,11 +82,15 @@ endEvent
 event DefaultAnimations()
     slalMCM slalConfig = Game.GetFormFromFile(0x12c4, "SLAnimLoader.esp") as slalMCM
     EnableAnimationCategory("Billyy_Human")
+    EnableAnimationCategory("Billyy_HumanFurnitureInvis")
+    EnableAnimationCategory("AyasatoAnims")
+    EnableAnimationCategory("FunnyBiznessRape")
+    EnableAnimationCategory("K4Anims")
     if _schlongified
         EnableAnimationCategory("Billyy_HumanFuta")
     endIf
     int animCount = slalConfig.Loader.registerAnimations()
-    Debug.MessageBox("Registered " + animCount)
+    Debug.MessageBox("Registered " + animCount + " Animations")
     NextStep()
 endEvent
 
@@ -121,6 +126,7 @@ function VariousThings_Sexlab()
     ; TODO - Read this from JSON
     sexlabConfig.AutoAdvance = false
     sexlabConfig.UseExpressions = true
+    sexlabConfig.UseLipSync = false
     sexlabConfig.SeparateOrgasms = true
     sexlabConfig.OrgasmEffects = true
     sexlabConfig.LimitedStrip = true

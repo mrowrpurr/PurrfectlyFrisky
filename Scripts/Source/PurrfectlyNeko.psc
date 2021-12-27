@@ -26,7 +26,11 @@ endFunction
 function FinishSetupCharacter()
     Utility.WaitMenuMode(1)
     Game.ForceThirdPerson()
+    Utility.WaitMenuMode(1)
+    CharGen.LoadPreset(RaceMenuPlayerPreset)
     Game.ShowRaceMenu()
+    Utility.WaitMenuMode(1)
+    CharGen.LoadPreset(RaceMenuPlayerPreset)
 endFunction
 
 function DressCharacter()
