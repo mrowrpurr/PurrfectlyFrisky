@@ -130,13 +130,14 @@ Function Fragment_12()
 ;BEGIN CODE
 ChargenMusic.Add()
 
+; Purrfectly Frisky
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Game.PrecacheCharGen()
 ; Game.ShowRaceMenu()
 ; Utility.Wait(0.1)
 ; SetStage(10)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 
 ;END CODE
 EndFunction

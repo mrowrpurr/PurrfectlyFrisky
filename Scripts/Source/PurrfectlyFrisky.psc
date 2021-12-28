@@ -1,2 +1,24 @@
 scriptname PurrfectlyFrisky extends Quest
 
+; Generic messagebox for confirmation and option dialog menus
+; and the properties required to set its text and visible buttons
+Message property PurrfectlyFrisky_Message_Generic auto
+Form property PurrfectlyFrisky_MessageText_BaseForm auto
+GlobalVariable property PurrfectlyFrisky_Message_Generic_Button_Back auto
+GlobalVariable property PurrfectlyFrisky_Message_Generic_Button_Ok auto
+GlobalVariable property PurrfectlyFrisky_Message_Generic_Button_Yes auto
+GlobalVariable property PurrfectlyFrisky_Message_Generic_Button_No auto
+GlobalVariable property PurrfectlyFrisky_Message_Generic_Button_Default auto
+GlobalVariable property PurrfectlyFrisky_Message_Generic_Button_Continue auto
+GlobalVariable property PurrfectlyFrisky_Message_Generic_Button_Next auto
+GlobalVariable property PurrfectlyFrisky_Message_Generic_Button_Cancel auto
+GlobalVariable property PurrfectlyFrisky_Message_Generic_Button_Exit auto
+
+; Load Game Event (provided by PurrfectlyFrisky_Player)
+event OnPlayerLoadGame()
+endEvent
+
+; Show [Purrfectly Frisky] configuration menu (via PurrfectlyFrisky_Configure spell)
+function ShowConfigurationMenu()
+
+endFunction

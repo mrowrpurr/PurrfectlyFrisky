@@ -6,7 +6,7 @@
     Output="Scripts" 
     Optimize="false" 
     Release="false" 
-    Zip="true"
+    Zip="false"
     Package="false"
     Final="false">
     <Variables>
