@@ -16,21 +16,37 @@ endEvent
 
 ; In the real version, we'll hide this under a full-screen HTML intro...
 function SetupCharacter()
+    ConsoleUtil.ExecuteCommand("set Apprentice_Training_LightArmor to 1")
+    ConsoleUtil.ExecuteCommand("set Apprentice_Training_HeavyArmor to 1")
+    ConsoleUtil.ExecuteCommand("set Apprentice_Training_Conjuration to 1")
+
+    ImageSpaceModifier ism = Game.GetForm(0x5e93d) as ImageSpaceModifier
+    ism.Apply(1.0)
+
     ARTH_QF_LALStartQuest_02000DAF chargenQuest = Game.GetFormFromFile(0xdaf, "Alternate Start - Live Another Life.esp") as ARTH_QF_LALStartQuest_02000DAF
     chargenQuest.SetStage(10)
+
+    DressCharacter()
+
     OpenAndCloseRaceMenu()
     CharGen.LoadPreset(RaceMenuPlayerPreset)
-    DressCharacter()
 endFunction
 
 function FinishSetupCharacter()
-    Utility.WaitMenuMode(1)
+    Utility.WaitMenuMode(0.5)
     Game.ForceThirdPerson()
+    Utility.WaitMenuMode(0.5)
+    CharGen.LoadPreset(RaceMenuPlayerPreset)
+    Utility.WaitMenuMode(0.5)
+    
+    Game.ShowRaceMenu() ; Open it for player to configure!
+
     Utility.WaitMenuMode(1)
     CharGen.LoadPreset(RaceMenuPlayerPreset)
-    Game.ShowRaceMenu()
-    Utility.WaitMenuMode(1)
-    CharGen.LoadPreset(RaceMenuPlayerPreset)
+
+    Utility.WaitMenuMode(1.0)
+    ImageSpaceModifier ism = Game.GetForm(0x5e93d) as ImageSpaceModifier
+    ism.Remove()
 endFunction
 
 function DressCharacter()
@@ -50,16 +66,16 @@ function DressCharacter()
     Form bra = Game.GetFormFromFile(0x805, "CBBE Standalone Underwear.esp")
 
     Actor player = Game.GetPlayer()
-    
+
     player.UnequipAll()
     player.RemoveAllItems()
     ; player.AddItem(gloves, abSilent = true)
     ; player.AddItem(boots, abSilent = true)
     ; player.AddItem(dress, abSilent = true)
-    player.AddItem(arm, abSilent = true)
-    player.AddItem(ankle, abSilent = true)
-    player.AddItem(collar, abSilent = true)
-    player.AddItem(corset, abSilent = true)
+    ; player.AddItem(arm, abSilent = true)
+    ; player.AddItem(ankle, abSilent = true)
+    ; player.AddItem(collar, abSilent = true)
+    ; player.AddItem(corset, abSilent = true)
     player.AddItem(panties, abSilent = true)
     player.AddItem(bra, abSilent = true)
     player.AddItem(shoes, abSilent = true)
@@ -67,10 +83,10 @@ function DressCharacter()
     ; player.EquipItemEx(gloves)
     ; player.EquipItemEx(boots)
     ; player.EquipItemEx(dress)
-    player.EquipItemEx(arm)
-    player.EquipItemEx(ankle)
-    player.EquipItemEx(collar)
-    player.EquipItemEx(corset)
+    ; player.EquipItemEx(arm)
+    ; player.EquipItemEx(ankle)
+    ; player.EquipItemEx(collar)
+    ; player.EquipItemEx(corset)
     player.EquipItemEx(panties)
     player.EquipItemEx(bra)
     player.EquipItemEx(shoes)

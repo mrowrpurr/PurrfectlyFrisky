@@ -34,13 +34,14 @@
         <!-- Sexlab and dependencies -->
         <Import>@PurrfectlyFriskyModsFolder\SexLabFrameworkSE_v163\scripts\Source</Import>
         <Import>@PurrfectlyFriskyModsFolder\Mfg Fix\source\scripts</Import>
-        <Import>@PurrfectlyFriskyModsFolder\InstallWizard\Scripts\Source</Import>
         <Import>@PurrfectlyFriskyModsFolder\Fores New Idles in Skyrim SE - FNIS SE\source\scripts</Import>
         <Import>@PurrfectlyFriskyModsFolder\Fores New Idles in Skyrim SE - FNIS SE - Creature Pack\source\scripts</Import>
         <Import>@PurrfectlyFriskyModsFolder\Schlongs of Skyrim SE\scripts\source</Import>
         <Import>@PurrfectlyFriskyModsFolder\Sexlab Animation Loadser SSE\Scripts\Source</Import>
         <Import>@PurrfectlyFriskyModsFolder\Cumshot\scripts\source</Import>
         <Import>@PurrfectlyFriskyModsFolder\SexLabArousedSSELoose\scripts\source</Import>
+
+        <!-- <Import>@PurrfectlyFriskyModsFolder\InstallWizard\Scripts\Source</Import> -->
 
         <Import>C:\Steam\steamapps\common\Skyrim Special Edition - Modding\Data\Scripts\Source</Import>
     </Imports>

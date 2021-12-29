@@ -130,6 +130,11 @@ Function Fragment_12()
 ;BEGIN CODE
 ChargenMusic.Add()
 
+; Add an IMAD
+; Test with ethereal... but use fade to black later
+
+; Fade to black - f756d
+
 ; Purrfectly Frisky
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
